@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/remixicon/fonts/remixicon.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../src/scss/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container" id="navbar">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="../public/index.html">
+                    <img src="../src/assets/logo.svg" alt="">
+                </a>
+                    
+                </div>
+                <div class="search">
+                    <input type="search" placeholder="What are you looking for?">
+                    <button class="input_search">SEARCH</button>
+                </div>
+                <div class="icons">
+                    <a href="#" class="user"><i class="ri-user-3-line"></i>
+                        <div class="user_hover">
+                            <button class="register" id="register">
+                                Register
+                            </button>
+                            <button class="register" id="login">
+                                Login
+                            </button>
+                        </div>
+                        <div class="user_reg" id="registerDiv">
+                            <a id="closeBtn"><i class="ri-close-large-line"></i></a>
+                            <form id="login_form">
+                                <h1>Login</h1>
+                                <input type="text" name="username" id="username" placeholder="Username">
+                                <!-- <input type="email" name="Email" placeholder="Email address" id="email"> -->
+                                <div class="password_box">
+                                    <input type="password" name="password" placeholder="password" id="password"
+                                        required />
+                                    <a class="openpsw"><i class="ri-eye-line"></i> <i class="ri-eye-off-line"></i></a>
+
+                                </div>
+                                <!-- <div class="check_box">
+                                    <input type="checkbox" name="Remember" placeholder="s" id="remember"><span>Remember
+                                        me</span>
+
+                                </div> -->
+                                <button type="submit" class="reg_btn">LOG IN</button>
+                            </form>
+                        </div>
+                    </a>
+                    <a href="#" class="liked"><i class="ri-heart-line"></i></a>
+                    <a href="#" class="shop" id="shop"><i class="ri-shopping-bag-line"></i></a>
+                    <div class="shop_board" id="shopBoard">
+                        <a id="closeBtnBasket"><i class="ri-close-large-line"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="bottom_nav">
+            <div class="container">
+                <div class="bottom_nav_inner">
+                    <div class="drowdown">
+                        <span>
+                            <i class="ri-menu-line"></i>
+                            SHOP BY DEPARTMENT
+
+                        </span>
+
+                        <span>
+                            <i class="ri-arrow-down-s-line"></i>
+                        </span>
+                    </div>
+
+                    <div class="navigation">
+                        <ul>
+                            <li>demo <span><i class="ri-arrow-down-s-line"></i></span></li>
+                            <li>features <i class="ri-arrow-down-s-line"></i></li>
+                            <li><a href="../public/shop.html">shop <i class="ri-arrow-down-s-line"></i></a></li>
+                            <li>product <i class="ri-arrow-down-s-line"></i></li>
+                            <li><a href="../public/blog.html">blog <i class="ri-arrow-down-s-line"></i></a></li>
+                            <li>pages <i class="ri-arrow-down-s-line"></i></li>
+                        </ul>
+                    </div>
+
+                    <div class="link">
+                        <span>Hotline:</span>
+                        +01 1234 8888
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="navbar_bottom">
+            <div class="container">
+                <div class="select">
+                    <label for="category"><i class="ri-menu-line"></i> SHOP BY DEPARTMENT </label>
+                    <select name="CATEGORY" id="category">
+                        <option value="Men's Clothing">Men's Clothing</option>
+                        <option value="Women's Clothing">Women's Clothing</option>
+                        <option value="Accessories">Accessories</option>
+                        <option value="Bags & Backpacks">Bags & Backpacks</option>
+                        <option value="Shoes">Shoes</option>
+                        <option value="Jewelry">Jewelry</option>
+                        <option value="Watches">Watches</option>
+                        <option value="Beauty & Care">Beauty & Care</option>
+                        <option value="Kids & Baby">Kids & Baby</option>
+
+                    </select>
+                </div>
+
+            </div>
+        </div> -->
+    </nav>
+    <main>
+        <section id="blog">
+            <div class="container">
+                <div class="row" id="blogrow">
+
+                </div>
+            </div>
+        </section>
+        <!-- <section id="header">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../src/assets/electronic-slider-1.webp" />
+                        <div class="text">
+                            <h1>Sale! Up to 50% Off!</h1>
+                            <h2> Tech That Moves <br>You Forward</h2>
+                            <div class="button_shop">
+                                <a href="#">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="../src/assets/electronic-slider-2.webp" />
+                        <div class="text">
+                            <h1>Sale! Up to 50% Off!</h1>
+                            <h2> Unmatched <br>Sound Quality</h2>
+                            <p>Premium headphones for clear audio, deep bass, lasting comfort, immersive listening
+                                experience.</p>
+                            <div class="button_shop">
+                                <a href="#">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section id="categories">
+            <div class="container">
+                <div class="row" id="category">
+
+                </div>
+
+
+            </div>
+        </section>
+        <section id="features">
+
+            <div class="container">
+                <div class="top_text">
+                    <h1>Features Products</h1>
+                </div>
+                <div class="row" id="product">
+
+                </div>
+                <div class="banner_wrapper">
+                    <div class="image">
+                        <img src="/home-page/src/assets/electronic-banner-1.webp" alt="">
+                        <div class="text">
+                            <h1>OCULUS VR EXPERIENCE</h1>
+                            <h2>Virtual Worlds, Real Adventures</h2>
+                            <p>Immerse Yourself in Stunning Virtual Worlds and Experience Gaming Like Never Before!</p>
+                            <div class="button_shop">
+                                <a href="#">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="top_picks">
+
+        </section> -->
+        <!-- <form id="login-form">
+            <input type="text" id="username" placeholder="Kullanıcı Adı">
+            <input type="password" id="password" placeholder="Şifre">
+            <button type="submit">Giriş Yap</button>
+          </form> -->
+
+    </main>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../src/js/login.js"></script>
+    <script src="../src/js/home.js"></script>
+</body>
+
+</html>

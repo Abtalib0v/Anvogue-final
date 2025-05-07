@@ -1,0 +1,90 @@
+html,
+body {
+    // position: relative;
+    height: 100%;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+body {
+    // background: #eee;
+
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-wrapper {
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+
+    .text {
+        position: absolute;
+        top: 20%;
+        left: 36%;
+
+        h1 {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: justify;
+        }
+
+        h2 {
+            color: #ffffff;
+            font-size: 56px;
+            font-weight: 500;
+            line-height: 68px;
+            margin-top: 1.25rem;
+            text-align: justify;
+        }
+        p {
+            color: #ffffff;
+            width: 58%;
+            text-align: justify;
+        }
+
+        .button_shop {
+            margin-top: 32px;
+            display: flex;
+
+            a {
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 20px;
+                padding: 16px 40px;
+                text-align: center;
+                text-transform: uppercase;
+                transition: all 0.3s;
+                background-color: #ffffff;
+                border-radius: 12px;
+                list-style: none;
+                text-decoration: none;
+                color: #000;
+                text-align: justify;
+            }
+
+        }
+    }
+
+}
+
+
+
+.swiper-slide {
+    display: block;
+    width: 100%;
+    img {
+        width: 100%;
+        object-fit: cover;
+        height: 445px;
+    }
+}

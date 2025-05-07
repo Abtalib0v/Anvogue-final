@@ -1,0 +1,66 @@
+#rated {
+    background-color: #F7F7F7;
+    padding: 84px 14px 48px;
+    .top_text {
+        h1 {
+            font-size: 36px;
+            display: inline-block;
+            line-height: 1;
+            margin-bottom: 0;
+            text-transform: capitalize;
+            margin-bottom: 2.5rem;
+            font-weight: 600;
+            font-style: normal;
+            color: #1F1F1F;
+        }
+
+    }
+
+    #product_rated {
+        margin-bottom: 2.5rem;
+    }
+
+    .cards {
+        background-color: #ffffff;
+        margin-bottom: 28px;
+        display: flex;
+        padding: 20px;
+        gap: 1rem;
+
+        .image {
+            max-width: 30%;
+            border-radius: 12px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .text {
+            display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+            h1 {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.5;
+                text-transform: capitalize;
+            }
+
+            .price {
+                font-size: 16px;
+                display: flex;
+
+                h3 {
+                    opacity: .5;
+                    margin-left: 10px;
+                    font-size: 90%;
+                    font-weight: normal;
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+}

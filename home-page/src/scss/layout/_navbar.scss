@@ -1,0 +1,386 @@
+body {
+    font-family: 'instrument sans';
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid $default_color;
+    background-color: #ffffff;
+
+    .navbar {
+        height: 74px;
+
+
+        .search {
+            display: flex;
+            width: 600px;
+            border-radius: 8px;
+
+            input {
+                width: 100%;
+                border: 1px solid #e9e9e9;
+
+                padding: 11px 16px 11px 24px;
+                border-bottom-left-radius: 8px;
+                border-top-left-radius: 8px;
+            }
+
+            .input_search {
+                padding: 13px 28px;
+                border: 0px;
+                border-bottom-right-radius: 8px;
+                border-top-right-radius: 8px;
+                background-color: #f03e3e;
+                font-size: 14px;
+                font-weight: 600;
+                color: #ffffff;
+
+            }
+        }
+
+        .icons {
+            display: flex;
+            gap: 10px;
+
+
+            .user {
+                position: relative;
+
+            }
+
+            .user_hover {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                top: 65px;
+                left: -109px;
+                padding: 1.75rem;
+                background-color: #ffffff;
+                display: none;
+                box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, .15);
+                border-radius: 12px;
+                width: 300px;
+
+                .register {
+                    width: 100%;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    padding: 16px 40px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    background-color: #000;
+                    color: #ffffff;
+                    border: 1px solid #000;
+                    transition: .2s linear;
+
+                    &:hover {
+                        background-color: #D2EF9A;
+                        color: #000;
+                    }
+                }
+
+
+            }
+
+            .user:hover .user_hover {
+                display: block;
+                z-index: 99;
+            }
+
+            .user,
+            .liked,
+            .shop {
+                list-style: none;
+                text-decoration: none;
+                color: inherit;
+                padding: 20px 0;
+
+                i {
+                    font-size: 25px;
+                }
+            }
+
+            .user_reg {
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 2.5rem 3rem;
+                border-radius: 12px;
+                position: fixed;
+                top: 150px;
+                left: 31%;
+                background-color: #ffffff;
+                display: none;
+                z-index: 2;
+
+                #closeBtn {
+                    cursor: pointer;
+                    position: absolute;
+                    z-index: 3;
+                    color: #000;
+                    padding: 0;
+                    right: 25px;
+                    top: 25px;
+                    height: 32px;
+                    width: 32px;
+                    opacity: 1;
+                    border-radius: 50%;
+                    font-size: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    line-height: 1;
+                    background-color: #f7f7f7;
+                    border: 1px solid #1F1F1F;
+
+                    i {
+                        font-size: 17px;
+                    }
+                }
+
+                form {
+                    gap: 25px;
+                    width: 600px;
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+
+
+
+                    h1 {
+                        font-family: "Instrument Sans";
+                        text-transform: capitalize;
+                        font-weight: 600;
+                        font-style: normal;
+                        color: #1F1F1F;
+                        line-height: 1.3;
+                        font-size: 30px;
+                    }
+
+                    input {
+                        padding: 11px 16px;
+                        height: 48px;
+                        color: #777777;
+                        border: 1px solid #e9e9e9;
+                        font-size: 16px;
+                        display: block;
+                        border-radius: 12px;
+                        outline: none;
+                    }
+
+                    .password_box {
+                        border: 1px solid #ccc;
+                        border-radius: 14px;
+                        align-items: center;
+                        width: 100%;
+                        display: flex;
+
+                        #password {
+                            width: 100%;
+                            border: 0px;
+                        }
+
+                        .openpsw {
+                            list-style: none;
+                            text-decoration: none;
+                            color: inherit;
+
+                            i {
+                                font-size: 22px;
+                                padding: 0px;
+                                padding-right: 11px;
+                            }
+
+                            .ri-eye-line {
+                                display: none;
+                                font-size: 22px;
+
+                            }
+                        }
+                    }
+
+                    #remember {
+                        display: inline-block;
+                        width: 18px;
+                        height: 18px;
+                        margin: 0;
+                        margin-right: 6px;
+                        margin-bottom: 5px;
+                        vertical-align: middle;
+                        cursor: pointer;
+                    }
+
+                    .check_box {
+                        display: flex;
+                    }
+
+                    .reg_btn {
+                        display: inline-block;
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 20px;
+                        padding: 16px 40px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        transition: all 0.3s;
+                        color: #ffffff;
+                        background-color: #1f1f1f;
+                        border-radius: 12px;
+                    }
+
+                }
+            }
+
+            .shop_board {
+                overflow-y: auto;
+                flex-direction: column;
+                position: fixed;
+                right: 10px;
+                width: 500px;
+                height: 100vh;
+                display: none;
+                background-color: white;
+                z-index: 3;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+                #closeBtnBasket {
+                    cursor: pointer;
+                    position: absolute;
+                    z-index: 3;
+                    color: #000;
+                    padding: 0;
+                    right: 25px;
+                    top: 25px;
+                    height: 32px;
+                    width: 32px;
+                    opacity: 1;
+                    border-radius: 50%;
+                    font-size: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    line-height: 1;
+                    background-color: #f7f7f7;
+                    border: 1px solid #1F1F1F;
+
+                    i {
+                        font-size: 17px;
+                    }
+                }
+                .cards {
+                    display: flex;
+                    .image {
+                        width: 20%;
+                        img {
+width: 100%;
+                        }
+                    }
+                    .text {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 20px;
+                        .price {
+                            h3 {
+                                text-decoration: line-through;
+                                opacity: 0.5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // .navbar_bottom {
+    //     border-bottom: 1px solid $default_color;
+    //     border-top: 1px solid $default_color;
+
+    //     .select {
+    //         width: 300px;
+    //         height: 48px;
+    //         background-color: #0575FF;
+    //         color: #ffffff;
+    //         display: flex;
+    //         justify-content: center;
+    //         align-items: center;
+
+    //         label {}
+
+    //         select {
+    //             background-color: #0575FF;
+    //             border: 0px;
+    //             color: #ffffff;
+
+    //             option {
+    //                 width: 100%;
+    //                 background-color: #ffffff;
+    //                 color: black;
+    //             }
+    //         }
+    //     }
+
+    // }
+
+    .bottom_nav {
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 0;
+        margin: 0;
+        
+
+        .bottom_nav_inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+@media (max-width:767px) {
+            display: none;
+        }
+            // navigation dropdown
+            .drowdown {
+                width: 250px;
+                padding: 15px 10px;
+                background-color: #0575FF;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 10px;
+                color: white;
+                font-weight: 600;
+
+                span {
+                    gap: 10px;
+                }
+            }
+
+            // navigation bar
+            .navigation {
+                ul {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    li {
+                        // gap: 10px;
+                        display: flex;
+                        align-items: center;
+                        font-size: 14px;
+                        text-transform: uppercase;
+                        a {
+                            list-style: none;
+                            text-decoration: inherit;
+                            color: #000;
+                        }
+
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

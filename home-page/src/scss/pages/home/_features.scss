@@ -1,0 +1,114 @@
+#features {
+    background-color: #ffffff;
+
+    .top_text {
+        h1 {
+            font-size: 36px;
+            display: inline-block;
+            line-height: 1;
+            margin-bottom: 0;
+            text-transform: capitalize;
+            margin-bottom: 2.5rem;
+            font-weight: 600;
+            font-style: normal;
+            color: #1F1F1F;
+        }
+
+    }
+
+    .cards {
+        .image {
+            border-radius: 12px;
+            margin-bottom: 18px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .text {
+            h1 {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.5;
+                margin-bottom: 6px;
+                text-transform: capitalize;
+            }
+
+            .price {
+                font-size: 16px;
+                display: flex;
+                font-weight: 600;
+
+                h3 {
+                    opacity: .5;
+                    margin-left: 10px;
+                    font-size: 90%;
+                    font-weight: normal;
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+
+    .banner_wrapper {
+        margin-top: 85px;
+.image {
+    border-radius: 12px;
+    background-position: center;
+    padding: 80px 20px 80px 60px;
+    background-image: url(/home-page/src/assets/electronic-banner-1.webp);
+}
+        .text {
+            h1 {
+                color: #FFFFFF;
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 600;
+                text-transform: uppercase;
+                margin-bottom: 8px;
+            }
+
+            h2 {
+                font-size: 56px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    margin-bottom: 16px;
+    line-height: 65px;
+            }
+
+            p {
+                font-size: 18px;
+                font-size: 18px;
+    margin-top: 5px;
+    line-height: 26px;
+    color: #ffffff;
+    
+            }
+            .button_shop {
+                margin-top: 32px;
+                display: flex;
+    
+                a {
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    padding: 16px 40px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    transition: all 0.3s;
+                    background-color: #ffffff;
+                    border-radius: 12px;
+                    list-style: none;
+                    text-decoration: none;
+                    color: #000;
+                    text-align: justify;
+                }
+    
+            }
+        }
+    }
+}

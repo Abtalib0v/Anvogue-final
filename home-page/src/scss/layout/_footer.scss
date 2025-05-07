@@ -1,0 +1,33 @@
+footer {
+    background-color: #1f1f1f;
+    color: #ffffff;
+
+    .footer_box {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 4.75rem;
+    padding-bottom: 3rem;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 21px;
+            font-size: 14px;
+
+            img {
+                
+                width: 48%;
+            }
+
+            li {
+                display: flex;
+                gap: 0.75rem;
+                h1 {
+                    font-size: 16px;
+                    font-weight: 600;
+                    min-width: 67px;
+                }
+            }
+        }
+    }
+}

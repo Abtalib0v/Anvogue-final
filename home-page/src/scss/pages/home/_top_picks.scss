@@ -1,0 +1,65 @@
+#top_picks {
+    #products {
+        margin-bottom: 2.5rem;
+
+    }
+
+    .top_text {
+        h1 {
+            font-size: 36px;
+            display: inline-block;
+            line-height: 1;
+            margin-bottom: 0;
+            text-transform: capitalize;
+            margin-bottom: 2.5rem;
+            font-weight: 600;
+            font-style: normal;
+            color: #1F1F1F;
+        }
+
+    }
+
+
+    .cards {
+        margin-bottom: 28px;
+
+        .image {
+            border-radius: 12px;
+            margin-bottom: 18px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .text {
+            h1 {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.5;
+                margin-bottom: 6px;
+                text-transform: capitalize;
+            }
+
+            .price {
+                font-size: 16px;
+                display: flex;
+                font-weight: 600;
+
+                h3 {
+                    opacity: .5;
+                    margin-left: 10px;
+                    font-size: 90%;
+                    font-weight: normal;
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+    .bottom_image {
+        img {
+            width: 100%;
+        }
+    }
+}

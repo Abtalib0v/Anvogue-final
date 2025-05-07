@@ -1,0 +1,115 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name":"HEADPHONE",
+      "title": "Sony Wireless Noise Cancelling",
+      "image": "/home-page/src/assets/technology-product-1-1-500x500.webp",
+      "price": 59.99
+    },
+    {
+      "id": "2",
+      "name":"HEADPHONE",
+      "title": "Bang & Olufsen Bioplay H100",
+      "image": "/home-page/src/assets/technology-product-8-1-500x500.webp",
+      "price": 69.0
+    },
+    {
+      "id": "3",
+      "name":"HEADPHONE",
+      "title": "Wireless Gaming Headphones",
+      "image": "/home-page/src/assets/technology-product-13-1-500x500.webp",
+      "price": 79.99
+    },
+    {
+      "id": "4",
+      "name":"HEADPHONE",
+      "title": "MW75 Wireless Headphones",
+      "image": "/home-page/src/assets/technology-product-14-1-500x500.webp",
+      "price": 68.0
+    },
+    {
+      "id": "5",
+      "name":"HEADPHONE",
+      "title": "Xiaomi Smart Speaker Lite",
+      "image": "/home-page/src/assets/technology-product-2-1-500x500.webp",
+      "price": 59.99
+    },
+    {
+      "id": "6",
+      "name":"HEADPHONE",
+      "title": "Q.Mag X Magnetic Wireless",
+      "image": "/home-page/src/assets/technology-product-3-1-500x500.webp",
+      "price": 69.0
+    },
+    {
+      "id": "7",
+      "name":"HEADPHONE",
+      "title": "Bang & Olufsen Bioplay E8",
+      "image": "/home-page/src/assets/technology-product-4-1-500x500.webp",
+      "price": 79.99
+    },
+    {
+      "id": "8",
+      "name":"HEADPHONE",
+      "title": "Bang & Olufsen Bioplay",
+      "image": "/home-page/src/assets/technology-product-5-1-500x500.webp",
+      "price": 68.0
+    },
+    {
+      "id": "9",
+      "name":"HEADPHONE",
+      "title": "VRone EDU Virtual Reality Headset",
+      "image": "/home-page/src/assets/technology-product-6-1-500x500.webp",
+      "price": 68.0
+    },
+    {
+      "id": "10",
+      "name":"HEADPHONE",
+      "title": "Google Nest Audio (Charcoal)",
+      "image": "/home-page/src/assets/technology-product-7-1-500x500.webp",
+      "price": 68.0
+    }
+    
+  ],
+  
+  "categories": [
+    {
+      "id": "1",
+      "image": "/home-page/src/assets/electronic-cat-1.webp",
+      "text": "iPhones",
+      "desc": "Reserved for special occasions"
+    },
+    {
+      "id": "2",
+      "image": "/home-page/src/assets/electronic-cat-2.webp",
+      "text": "iPhones",
+      "desc": "Reserved for special occasions"
+    },
+    {
+      "id": "3",
+      "image": "/home-page/src/assets/electronic-cat-3.webp",
+      "text": "iPhones",
+      "desc": "Reserved for special occasions"
+    }
+  ],
+  "news": [
+    {
+      "id": "1",
+      "image": "/home-page/src/assets/electronic-post-1.webp",
+      "text": "ELECTRONIC",
+      "desc": "Quality Headphone models worth buying in 2023"
+    },
+    {
+      "id": "2",
+      "image": "/home-page/src/assets/electronic-post-2.webp",
+      "text": "ELECTRONIC",
+      "desc": "Useful feature of S21 Ultra that you don’t know"
+    },{
+      "id": "3",
+      "image": "/home-page/src/assets/electronic-post-3.webp",
+      "text": "ELECTRONIC",
+      "desc": "Great performance of the new iPhone Generation"
+    }
+  ]
+}
